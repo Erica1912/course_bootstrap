@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.css">   
+    <link rel="stylesheet" href="css/main.css" >
+
+    <title>Guía de Hoteles</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Guía de Hoteles</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item "><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">Nosotros</a></li>
+                <li class="nav-item  active"><a class="nav-link" href="precios.html">Precios</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Términos y condiciones</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>                          
+            </ul>           
+          </div>
+    </nav>
+    <div class="jumbotron">
+        <h1>Hoteles</h1>
+    </div>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item" aria-current="page"> <a href="index.html"> Home </a></li>
+                <li class="breadcrumb-item active" aria-current="page">Precios</li>
+            </ol>
+        </nav>
+        <ul class="nav nav-tabs" id="myTabs" role="tablist">
+            <li class="nav-item ">
+              <a class="nav-link active" href="#compara" id="compara-tab" data-toggle="tab" role="tab" aria-controls="compara" aria-selected="true">Comparación</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#tarjeta" id="tarjeta-tab" data-toggle="tab" role="tab" aria-controls="tarjeta" aria-selected="true">Tarjeta</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#comentario" id="comentario-tab" data-toggle="tab" role="tab" aria-controls="comentario" aria-selected="true">Comentarios</a>
+            </li>
+          </ul>
+
+        <div class="tab-content"  id="myTabContent">
+            <div class="tab-pane fade show active" id="compara" role="tabpanel" aria-labelledby="compara-tab">
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <th>Calidad</th>
+                            <th>Medellín</th>
+                            <th>Bogotá</th>
+                            <th>Cartagena</th>
+                            <th>San Andrés</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="oi oi-star"></span></td>
+                                <td>$US 100</td>
+                                <td>$US 150</td>
+                                <td>$US 50 </td>
+                                <td>$US 80</td>
+                            </tr>
+                            <tr>
+                                <td><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
+                                <td>$US 200</td>
+                                <td>$US 250</td>
+                                <td>$US 100 </td>
+                                <td>$US 120</td>
+                            </tr>
+                            <tr>
+                                <td><span class="oi oi-star"><span class="oi oi-star"></span><span class="oi oi-star"></span></span></td>
+                                <td>$US 300</td>
+                                <td>$US 250</td>
+                                <td>$US 150 </td>
+                                <td>$US 160</td>
+                            </tr>
+                        </tbody>
+                   </table>
+                </div>
+            </div>
+            <div class="tab-pane fade show active" id="tarjeta" role="tabpanel" aria-labelledby="tarjeta-tab">
+                <div class="row">                   
+                    <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+                        <div class="card-header"><span class="oi oi-globe"></span> Cuba</div>
+                        <div class="card-body">                            
+                            <img class="card-img-top" src="image/1.jpg" alt="Card image cap">                  
+                            <p class="card-text">Con los mejores descuentos </p>
+                        </div>
+                        <div>
+                            <button class="btn btn-success btn-reserva">Compra Ya</button>
+                        </div>
+                    </div>
+                    <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+                        <div class="card-header"><span class="oi oi-globe"></span> Bahamas</div>
+                        <div class="card-body">                            
+                            <img class="card-img-top" src="image/2.jpg" alt="Card image cap">                  
+                            <p class="card-text">El destino más barato </p>
+                        </div>
+                        <div>
+                            <button class="btn btn-success btn-reserva">Compra Ya</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">                   
+                    <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+                        <div class="card-header"><span class="oi oi-globe"></span> México</div>
+                        <div class="card-body">                            
+                            <img class="card-img-top" src="image/6.jpg" alt="Card image cap">                  
+                            <p class="card-text">Destino con todos los descuentos </p>
+                        </div>
+                        <div>
+                            <button class="btn btn-success btn-reserva">Compra Ya</button>
+                        </div>
+                    </div>
+                    <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+                        <div class="card-header"><span class="oi oi-globe"></span> San Andres</div>
+                        <div class="card-body">                            
+                            <img class="card-img-top" src="image/8.jpg" alt="Card image cap">                  
+                            <p class="card-text">Disfruta de las playas más lindas de Colombia </p>
+                        </div>
+                        <div>
+                            <button class="btn btn-success btn-reserva">Compra Ya</button>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+            <div class="tab-pane fade show active" id="comentario" role="tabpanel" aria-labelledby="comentario-tab">
+                <div class="table-responsive">
+                    <div class="card">
+                        <div class="card-header">
+                          Comunicate con Nosotros
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Disfruta de nuestros descuentos %</h5>
+                          <p class="card-text">La mejor oportunidad para viajar.</p>
+                          <a href="contacto.html" class="btn btn-primary">Contactenos</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            </div>                     
+        </div>
+    </div>
+        
+    <footer class="footer">
+        <div class="row">
+            <div class="col-sm-4 d-flex flex-column">
+                <a href="https://www.facebook.com/">Facebook</a>
+                <a href="https://www.twitter.com/">Twitter</a>
+                <a href="https://www.instagram.com/">Instagram</a>
+                <a href="https://www.google.com/">Google+</a>
+            </div>
+            <div class="col-sm-4">
+                <address>
+                    <h3>Oficina Central</h3>
+                    <p><span class="oi oi-home footer-address-icon"></span>Medellin #7800 - Colombia</p>
+                    <p><span class="oi oi-phone footer-address-icon"></span></span>+57 318 88 99</p> 
+                    <p><span class="oi oi-inbox footer-address-icon"></span>contacto@guiahoteles.com</p>   
+                </address>
+            </div>
+            <div class="col-sm-4 d-flex flex-column align-items-end">
+                <a href="about.html">Nosotros</a>
+                <a href="precios.html">Precios</a>
+                <a href="#">términos y condiciones</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+        </div>
+    </footer>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
