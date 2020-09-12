@@ -23,7 +23,7 @@
                 <li class="nav-item "><a class="nav-link" href="index.html">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="about.html">Nosotros</a></li>
                 <li class="nav-item"><a class="nav-link" href="precios.html">Precios</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Términos y condiciones</a></li>
+                <li class="nav-item"><a class="nav-link" href="terminos.html">Términos y condiciones</a></li>
                 <li class="nav-item  active"><a class="nav-link" href="contacto.html">Contacto</a></li>                          
             </ul>           
           </div>
@@ -78,7 +78,7 @@
                     <input type="checkbox" name="" id="gridCheckbox"  class="form-check-input">                    
                     <label for="gridCheckbox" class="form-checkbox-input">quiero que me contacte</label>
                 </div>
-                
+                <a href="terminos.html" title="Terminos y Condiciones" data-toggle="popover" data-trigger="hover" data-content="Si quiere ver nuestros terminos y condiciones" class="text-success">Terminos y Condiciones</a>                
             </div>
             <button type="submit" class="btn btn-success">Enviar</button>
         </form>
@@ -102,7 +102,7 @@
             <div class="col-sm-4 d-flex flex-column align-items-end">
                 <a href="about.html">Nosotros</a>
                 <a href="precios.html">Precios</a>
-                <a href="#">términos y condiciones</a>
+                <a href="terminos.html">términos y condiciones</a>
                 <a href="contacto.html">Contacto</a>
             </div>
         </div>
@@ -110,5 +110,10 @@
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="popover"]').popover();   
+        });
+    </script>
   </body>
 </html>

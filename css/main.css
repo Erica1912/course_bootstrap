@@ -46,4 +46,7 @@ a:link {
       height: 80%;
   }
   
- 
+ .titulo{
+     margin-top: 25px;
+     margin-bottom: 15px;
+ }
